@@ -12,6 +12,7 @@ html {
   text-size-adjust: 100%;
   background-color: #fff;
   font-family: 'Josefin Slab', serif;
+  background-color:#618CD1;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -31,39 +32,39 @@ body {
   text-align: center;
 }
 .title a {
-  color: black;
+  color: #374763;
   text-decoration: none;
 }
 a:hover,
 a:link,
 a:visited {
-  color: red;
+  color: #374763;
   text-decoration: none;
 }
 .nav {
   padding: 0;
   list-style-type: none;
+  color:white;
 }
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
 .nav a.current {
-  background-color: red;
+  background-color: white;
 
   color: white;
 }
 .nav a {
   display: block;
+  color:white;
 }
 footer{
-  background-color:lightblue;
+  background-color:#374763;
 }
 .copyright{
-  color:#012851;
+  color:white;
 }
-.im{
-  ;
-}
+
 h1{
   font-family: 'Berkshire Swash', cursive;
 }
@@ -85,14 +86,22 @@ h2{
   .nav li {
     display: inline-block;
   }
+.logo{
+  width:15%;
+  height:30%;
 
 }
+}
+
 
 @media only screen and (min-width: 38em) {
 
-  .title,
   .nav {
     text-align: left;
+  }
+  .logo{
+    width:10%;
+    height:20%;
   }
 
 }
