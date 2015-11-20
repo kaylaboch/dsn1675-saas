@@ -70,7 +70,10 @@ h1{
 h2{
   font-family: 'Berkshire Swash', cursive;
 }
-
+.logo{
+  width:40%;
+  height: 70%;
+}
 
 
 @media only screen and (min-width: 25em) {
