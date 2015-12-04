@@ -54,15 +54,33 @@ a:visited {
 
   color: white;
 }
+
 .nav a {
   display: block;
   color:white;
 }
+
 footer{
   background-color:#374763;
 }
+
 .copyright{
   color:white;
+}
+
+input{
+  boder:1px;
+  background-color:#374763;
+  font-size: 1rem;
+  padding:.5em;
+  color:white;
+}
+
+button{
+  border:3px solid white;
+  background-image: linear-gradient(blue,white)
+  padding:.5em;
+  border-radius:10px;
 }
 
 h1{
